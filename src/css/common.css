@@ -7,12 +7,41 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-image: url(https://www.ogorod.ru/images/cache/1200x750/crop/images%7Ccms-image-000051997.jpg);
+  background-size: cover;
+  background-color: #9222fc;
   color: #212121;
   line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
+.link{
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: rgb(181, 181, 255);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  text-decoration: none;
+  padding: 10px;
+ 
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+}
+
+
